@@ -6,8 +6,8 @@
     tasks:
       - name: Copy Docker-Compose files
         synchronize:
-          src: ./example-voting-app
-          dest: /home/azureuser/
+          src: ./
+          dest: /home/azureuser/example-voting-app/
           rsync_opts:
             - --include=*/
             - --include=*
